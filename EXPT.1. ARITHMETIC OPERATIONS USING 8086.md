@@ -26,8 +26,9 @@ To write and execute Assembly Language Programs to perform arithmetic operations
 7. Store result.
 8. Stop.
 
-## FLOW CHART
 
+## FLOW CHART
+<img width="707" height="1024" alt="image" src="https://github.com/user-attachments/assets/b5a7062d-e294-47cd-9683-a40de25e82de" />
 
 
 #### Program
@@ -46,7 +47,7 @@ INC CL
 
 L1: MOV SI, 1200H
     MOV [SI], AX
-MOV [SI+2], CL
+    MOV [SI+2], CL
     MOV AH, 4CH
     INT 21H
 
@@ -62,6 +63,7 @@ END
 |       1201              |      24                  |
 
 #### Manual Calculations
+
 ![WhatsApp Image 2026-02-09 at 11 47 18 AM](https://github.com/user-attachments/assets/60462a57-a7b8-43e0-9ed0-2dbc37a6604d)
 
 
@@ -80,6 +82,7 @@ END
 3. Move 2nd data to accumulator.
 4. Subtract memory content.
 5. Store result.
+
 ## FLOWCHART
 
 <img width="578" height="797" alt="image" src="https://github.com/user-attachments/assets/564c3c7a-33ce-4a1c-8920-beb5c24b9b47" />
@@ -100,7 +103,7 @@ ORG 1000H
 
 L1: MOV SI, 1200H
     MOV [SI], AX
-MOV [SI+2], CL
+    MOV [SI+2], CL
     MOV AH, 4CH
     INT 21H
 
@@ -119,6 +122,8 @@ END
 #### Manual Calculations
 
 ![WhatsApp Image 2026-02-09 at 11 47 17 AM](https://github.com/user-attachments/assets/59542489-8101-4e42-a3d7-ff7737557cb8)
+
+
 ---
 
 
@@ -138,6 +143,7 @@ END
 ##FLOWCHART
 
 <img width="569" height="906" alt="image" src="https://github.com/user-attachments/assets/88be88ff-2896-4a88-b73d-84ccffd2fcf9" />
+
 
 
 #### Program
@@ -170,6 +176,8 @@ END
 #### Manual Calculations
 
 ![WhatsApp Image 2026-02-09 at 11 47 19 AM (1)](https://github.com/user-attachments/assets/ab39dd26-ddb3-4b08-83f1-1a6618f3905e)
+
+
 ---
 
 ## OUTPUT SCREEN FROM MASM SOFTWARE
